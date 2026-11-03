@@ -101,7 +101,7 @@ class TaskMasterApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My App',
+      title: 'My app',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.dark,
       home: const TaskHomePage(),
@@ -374,7 +374,7 @@ class _TaskHomePageState extends State<TaskHomePage>
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('My App'),
+        title: const Text('My app'),
         actions: [
           if (completed > 0)
             IconButton(
